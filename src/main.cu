@@ -87,9 +87,9 @@ static void validate(const SurfaceOutput *out, int nK, int nT) {
   printf("══════════════════════════════════════════════════════\n");
 
   if (nan_cnt == 0 && neg_cnt == 0)
-    printf("  ✓  PASS – zero NaN, zero negative variances\n");
+    printf("PASS\n");
   else
-    printf("  ✗  FAIL\n");
+    printf("FAIL");
   printf("══════════════════════════════════════════════════════\n\n");
 }
 
