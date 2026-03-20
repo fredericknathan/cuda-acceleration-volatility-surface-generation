@@ -12,16 +12,7 @@ A GPU-accelerated local volatility surface generator solving the **Dupire equati
 - **Dual `cudaStream_t`** for concurrent H↔D transfer and kernel execution
 - **Compile-time precision switch** between `float` (speed) and `double` (precision)
 
-## Quick Start (Google Colab)
-
-Each source file is designed to be pasted into a Colab cell with `%%writefile`:
-
-```python
-%%writefile include/types.cuh
-# ... paste types.cuh contents ...
-```
-
-Repeat for all source files, then compile and run:
+How to run:
 
 ```bash
 !mkdir -p include src
